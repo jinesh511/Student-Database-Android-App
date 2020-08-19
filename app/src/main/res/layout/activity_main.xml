@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="1"
+
+    android:background="@drawable/dark_forest"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10sp"
+            android:paddingTop="10sp"
+            android:paddingBottom="5sp"
+
+            android:text=" Employee Name :"
+            android:textColor="#DFBD78"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.5"
+            android:hint="                            Enter Name :"
+            android:inputType="text"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10sp"
+            android:paddingTop="10sp"
+            android:paddingBottom="5sp"
+
+            android:text="Employee Phone Number :"
+            android:textColor="#DFBD78"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.5"
+            android:hint="                      Enter Phone Number :"
+            android:inputType="number"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10sp"
+            android:paddingTop="10sp"
+            android:paddingBottom="5sp"
+
+            android:text="Employee Mail Id :"
+            android:textColor="#DFBD78"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etMailId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.5"
+            android:hint="                          Enter Email Id :"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10sp"
+            android:paddingTop="10sp"
+            android:paddingBottom="5sp"
+
+            android:text=" Name To Modify :"
+            android:textColor="#DFBD78"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.5"
+            android:hint="  Enter Employee Name to Modify Details: "
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10sp"
+            android:paddingTop="15sp"
+            android:paddingBottom="5sp"
+
+            android:text="        Employee Detail Data Base :"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15sp"
+            android:background="#C5AA4B"
+            android:text="Save Details"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10sp"
+            android:background="#6778A3"
+            android:text="Update Details"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/btnDel"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10sp"
+            android:background="#CFBE89"
+            android:text="Delete"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/btnSelect"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10sp"
+            android:background="#537855"
+            android:text="Select"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnSelectAll"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10sp"
+            android:background="#5AF4E6"
+            android:text="View Database"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
